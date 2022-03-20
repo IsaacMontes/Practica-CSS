@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'VI Hai Duong Hoa';
+    src: url('VI-HaiDuongHoa.eot');
+    src: url('VI-HaiDuongHoa.eot?#iefix') format('embedded-opentype'),
+        url('VI-HaiDuongHoa.woff2') format('woff2'),
+        url('VI-HaiDuongHoa.woff') format('woff'),
+        url('VI-HaiDuongHoa.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
