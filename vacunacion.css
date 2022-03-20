@@ -1,0 +1,233 @@
+/* PAGINA DE VACUNACION PIRATA XD*/ 
+*{
+    font-family: 'Bebas Neue';
+    color: var(--color-gris);
+    font-size: 20px;
+}
+ :root{
+     --color-blaco: rgb(255, 255, 255); 
+     --color-gris: rgb(151, 151, 151);
+     --color-gisr-obs: rgb(97, 97, 97);
+     --color-azul: rgb(32, 60, 174);
+ } 
+ .encabezado{
+    height: 90px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .titulos{
+    font-family: 'VI Hai Duong Hoa';
+    color: var(--color-azul);
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 80px;
+ }
+ .franja{
+    height: 90px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 180px;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+ .cajita{
+    height: 60px;
+    width: 220px;
+    display: inline-flex;
+    align-items: center;  
+    justify-items: center;
+    padding-left:  50px ;
+    padding-right: 20px; 
+ }
+ .nav_links {
+    list-style: none;
+ }
+ .nav_item {
+   text-decoration: none;
+   color:var(--color-gris);
+   transition: color ease 0.1s;
+ }
+ .nav_item:hover {
+    color: var(--color-gisr-obs);
+ }
+ .nav_links li {
+    display: inline-block;
+ }
+ .tapa{
+    width: 100%;
+    background-color: black;
+    height: 800px;
+    display: flex;
+ }
+ .tapaiz{
+    width: 50%;
+    height: 100%-100px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+ }
+ .cajatapa{
+    line-height: 42px;
+    height: 100px;
+    width: 400px;
+    position: relative;
+    top: 100px;
+ }
+ .texcajatapa{
+    font-family: 'VI Hai Duong Hoa';
+    font-size: 60px;
+    font-weight:800;
+    line-height: 55px;
+    color:var(--color-azul);
+    margin: 0%;
+ }
+
+ .rightcover{
+    width: 50%;
+    height: 100%-100px;
+    padding-top: 100px;
+    background-image: url(./assets/img/imgderfron.png);
+    background-position-x: center;
+    background-size: cover;
+ }
+ 
+ .texttapa{
+    width: 400px;
+    height: auto;
+    display: flex;
+    position: relative;
+    top: 110px;
+ }
+ .textextapa{
+    width: 380px;
+    height: 80px;
+    display: flex;
+    margin: none;
+    align-items: center;
+ }
+ .subtitulotapa{
+    width: 400px;
+    height: 50px;
+    position: relative;
+    top: 130px ;
+    display: flex;
+ }
+ .substextap{
+    width: 330px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+ }
+ .subs{
+    width: 160px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+ .seccion2{
+    width: 400px;
+    height: 50px;
+    position: relative;
+    top: 270px ;
+    display: flex;
+    align-items: center;
+ }
+ .subseccion2{
+    width: 270px;
+    height: 30px;
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+ }
+ .texseccion2{
+    width: 270px;
+    height: 30px;
+    font-family: 'VI Hai Duong Hoa';
+    font-size: 20px;
+    font-weight:800;
+    color:var(--color-azul);
+ }
+ .formvacon{
+    width: 750px;
+    height: 90px;
+    position: relative;
+    top: 265px ;
+    left: 200px;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.816);
+    box-shadow: 0px 10px rgba(0, 0, 0, 0.07);
+    align-items: center;
+    padding: 20px;
+ }
+ .infocont{
+    height: 90px;
+    width: 610px;
+    display: flex;
+ }
+ .infobot{
+    height: 50px;
+    width: 160px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .info{
+    height: 75px;
+    width: 196.6px;
+    padding-top: 15px;
+    padding-left: 10px;
+    display: flex;
+    flex-flow: column;
+ }
+ .upinfo{
+    width: 180px;
+    height: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row;
+    align-content: center;
+    gap: 10px;
+ }
+ .texto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:var(--color-gisr);
+    font-weight: bold;
+    line-height: 23px;
+ }
+ .textoabajo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:var(--color-gisr-obs);
+    font-weight: bold;
+    line-height: 23px;
+ }
+ .inform{
+    width: 155px;
+    height: 25px;
+    border: 0px;
+ }
+ .imagenvac{
+    height: 80px; 
+ }
+ .imagenvac1{
+    height: 110px; 
+ }
+
+ @media(max-width: 450px){
+     .nav{
+        margin-top: 20px;
+     }
+ }

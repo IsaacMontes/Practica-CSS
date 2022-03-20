@@ -1,0 +1,37 @@
+/* PAGINA DE VACUNACION PIRATA XD*/ 
+ .vacfoot{
+    width: 230px;
+    height: 170px;
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+ }
+ .footlogo{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: rgb(32,60,174);
+ }
+ .footlinks{
+    width: 499px;
+    height: 170px;
+    display: flex;
+    gap: 23px;
+ }
+ .linkcont{
+    width: 151px;
+    height: 170px;
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+ }
+ .derechos{
+    display: flex;
+    align-items: center;
+ }
+ .minilink{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+ }
+ 
